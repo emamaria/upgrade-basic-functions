@@ -9,7 +9,7 @@ function sumNumbers(list){
     sum += list[i]
  }
 
- return sum
+ return sum;
 
 
 }
