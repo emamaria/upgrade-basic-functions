@@ -9,11 +9,19 @@
     'ice-cream',
     'pizza',
     'chicken',
+    'pepinillos',
     'onion rings',
     'pasta',
+    'pasta',
     'soda',
+    'soda',
+    'soda',
+    'pepinillos',
+    'helado'
    
   ];
+
+
 
  function removeDuplicates(list) {
 
@@ -23,7 +31,8 @@
   
              if(list[i] == list[j]){
                  list.splice(i, 1);
-   
+                 i--
+                  
               
              }
 
